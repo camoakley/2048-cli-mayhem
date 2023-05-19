@@ -1,5 +1,0 @@
-project: 2048-cli-mayhem
-target: 2048
-
-cmds:
-  - cmd: /2048

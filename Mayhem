@@ -1,0 +1,4 @@
+project: 2048
+target: 2048
+cmds:
+- cmd: /2048

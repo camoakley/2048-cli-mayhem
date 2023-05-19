@@ -47,7 +47,7 @@ jobs:
           file: mayhem/Dockerfile
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-
+    
     outputs:
       image: ${{ steps.meta.outputs.tags }}
 
@@ -70,7 +70,7 @@ jobs:
           mayhem-token: ${{ secrets.MAYHEM_TOKEN }}
           args: --image ${{ needs.build.outputs.image }} --file ${{ matrix.mayhemfile }} --duration 300
           sarif-output: sarif
-      
+          
       - name: Upload SARIF file(s)
         uses: github/codeql-action/upload-sarif@v2
         with:
