@@ -15,6 +15,7 @@ So, go to the ./po directory and then create a directory with your language stan
 
 for example:
 
+t
 ```
 mkdir po/es_AR
 ```
