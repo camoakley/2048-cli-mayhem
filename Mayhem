@@ -1,4 +1,4 @@
-project: 2048
-target: 2048
+project: 2048_
+target: 2048_
 cmds:
-- cmd: /2048
+- cmd: /2048_
